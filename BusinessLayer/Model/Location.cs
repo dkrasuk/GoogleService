@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GoogleMapService.BusinessLayer.Model
+namespace GoogleMapService.GoogleBL.Model
 {
     public class Location
     {

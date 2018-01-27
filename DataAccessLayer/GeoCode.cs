@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DataAccessLayer.Model;
+using GoogleDAL.Model;
 using System.Net;
 using Newtonsoft.Json.Linq;
 using Microsoft.Practices.Unity;
 using System.Configuration;
 
-namespace DataAccessLayer
+namespace GoogleDAL
 {
     public class GeoCode : IGeoCode
     {

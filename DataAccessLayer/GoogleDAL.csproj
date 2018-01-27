@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{66664BFE-E112-4ACD-B340-16DF70ED26E4}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>DataAccessLayer</RootNamespace>
-    <AssemblyName>DataAccessLayer</AssemblyName>
+    <RootNamespace>GoogleDAL</RootNamespace>
+    <AssemblyName>GoogleDAL</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

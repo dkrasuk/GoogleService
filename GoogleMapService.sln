@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{66664BFE-E112-4ACD-B340-16DF70ED26E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleDAL", "DataAccessLayer\GoogleDAL.csproj", "{66664BFE-E112-4ACD-B340-16DF70ED26E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{6B6D38B6-1C49-414B-A1DB-BE41C7654DF9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleBL", "BusinessLayer\GoogleBL.csproj", "{6B6D38B6-1C49-414B-A1DB-BE41C7654DF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

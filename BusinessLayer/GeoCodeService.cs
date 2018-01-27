@@ -3,14 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using GoogleMapService.BusinessLayer.Model;
+using GoogleMapService.GoogleBL.Model;
 using Microsoft.Practices.Unity;
-using AutoMapper;
-using DataAccessLayer;
+using GoogleDAL;
 using System.Xml.Linq;
 using Newtonsoft.Json.Linq;
 
-namespace GoogleMapService.BusinessLayer
+namespace GoogleMapService.GoogleBL
 {
     public class GeoCodeService : IGetGeoCodeService
     {
@@ -25,16 +24,16 @@ namespace GoogleMapService.BusinessLayer
         {        
             if (address == null)
             {
-                return null;
+                throw new ArgumentNullException("Address not specified");
             }
             try
             {
                 var response = await _geo.GetGeoCode(address, apiKey);
                 return response;
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                return null;
+                throw new Exception("Geolocation is not received");
             }          
             
         }

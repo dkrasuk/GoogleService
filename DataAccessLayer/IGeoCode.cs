@@ -1,4 +1,4 @@
-﻿using DataAccessLayer.Model;
+﻿using GoogleDAL.Model;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccessLayer
+namespace GoogleDAL
 {
     public interface IGeoCode
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using Unity;
 
-namespace DataAccessLayer
+namespace GoogleDAL
 {
     public static class Bootstraper
     {
@@ -9,7 +9,6 @@ namespace DataAccessLayer
         {            
             container
                .RegisterType<IGeoCode, GeoCode>();      
-
         }
     }
 }
